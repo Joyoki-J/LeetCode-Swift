@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1F38365A25EC92A800D1CFAB /* a1653_使字符串平衡的最少删除次数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F38365925EC92A800D1CFAB /* a1653_使字符串平衡的最少删除次数.swift */; };
+		1F38365D25ECAF1400D1CFAB /* a10_正则表达式匹配.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F38365C25ECAF1400D1CFAB /* a10_正则表达式匹配.swift */; };
 		1F9AC92725EC87FC00F8AEE1 /* a303_区域和检索_数组不可变.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9AC92625EC87FC00F8AEE1 /* a303_区域和检索_数组不可变.swift */; };
 		1FD27EC225EB66DE000AF792 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD27EC125EB66DE000AF792 /* main.swift */; };
 		1FD27ECB25EB6709000AF792 /* a896_单调数列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD27ECA25EB6709000AF792 /* a896_单调数列.swift */; };
@@ -31,6 +32,7 @@
 
 /* Begin PBXFileReference section */
 		1F38365925EC92A800D1CFAB /* a1653_使字符串平衡的最少删除次数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "a1653_使字符串平衡的最少删除次数.swift"; sourceTree = "<group>"; };
+		1F38365C25ECAF1400D1CFAB /* a10_正则表达式匹配.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "a10_正则表达式匹配.swift"; sourceTree = "<group>"; };
 		1F9AC92625EC87FC00F8AEE1 /* a303_区域和检索_数组不可变.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "a303_区域和检索_数组不可变.swift"; sourceTree = "<group>"; };
 		1FD27EBE25EB66DE000AF792 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FD27EC125EB66DE000AF792 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				1FD27ED325EB7749000AF792 /* a1_两数之和.swift */,
 				1FD27EDB25EB7BFD000AF792 /* a2_两数相加.swift */,
 				1FD27EDE25EBC0B4000AF792 /* a3_无重复字符的最长子串.swift */,
+				1F38365C25ECAF1400D1CFAB /* a10_正则表达式匹配.swift */,
 			);
 			path = 1_99;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F38365D25ECAF1400D1CFAB /* a10_正则表达式匹配.swift in Sources */,
 				1FD27ECB25EB6709000AF792 /* a896_单调数列.swift in Sources */,
 				1FD27EDC25EB7BFD000AF792 /* a2_两数相加.swift in Sources */,
 				1FD27ED425EB7749000AF792 /* a1_两数之和.swift in Sources */,
