@@ -17,25 +17,37 @@ import Foundation
 //assert(addTwoNumbers(ListNode([0]), ListNode([0]))?.check(with: [0]) ?? false)
 //assert(addTwoNumbers(ListNode([9,9,9,9,9,9,9]), ListNode([9,9,9,9]))?.check(with: [8,9,9,9,0,0,0,1]) ?? false)
 
-/***** 10.正则表达式匹配*******************************/
-assert(isMatch("aaa", "a*a") == true)
-assert(isMatch("aa", "a*") == true)
-assert(isMatch("aa", "a") == false)
-assert(isMatch("aa", "a") == false)
-assert(isMatch("aa", "a") == false)
-
-
 /***** 3.无重复字符的最长子串 *******************************/
 //assert(lengthOfLongestSubstring("abcabcbb") == 3)
 //assert(lengthOfLongestSubstring("bbbbb")    == 1)
 //assert(lengthOfLongestSubstring("pwwkew")   == 3)
 //assert(lengthOfLongestSubstring("")         == 0)
 
+/***** 10.正则表达式匹配*******************************/
+//assert(isMatch("aaa", "a*a") == true)
+//assert(isMatch("aa", "a*") == true)
+//assert(isMatch("aa", "a") == false)
+//assert(isMatch("aa", "a") == false)
+//assert(isMatch("aa", "a") == false)
+
 /***** 303.区域和检索-数组不可变 *******************************/
 //let numArray = NumArray([-2, 0, 3, -5, 2, -1])
 //assert(numArray.sumRange(0, 2) == 1)
 //assert(numArray.sumRange(2, 5) == -1)
 //assert(numArray.sumRange(0, 5) == -3)
+
+/***** 304.二维区域和检索-矩阵不可变 *******************************/
+let matrix = [
+    [3, 0, 1, 4, 2],
+    [5, 6, 3, 2, 1],
+    [1, 2, 0, 1, 5],
+    [4, 1, 0, 1, 7],
+    [1, 0, 3, 0, 5]
+]
+let obj = NumMatrix(matrix)
+assert(obj.sumRegion(2, 1, 4, 3) == 8)
+assert(obj.sumRegion(1, 1, 2, 2) == 11)
+assert(obj.sumRegion(1, 2, 2, 4) == 12)
 
 /***** 896.单调数列 *******************************/
 //assert(isMonotonic([1,2,2,3]) == true)
