@@ -44,11 +44,15 @@ import Foundation
 //assert(intToRoman(1994) == "MCMXCIV")
 
 /***** 13.罗马数字转整数 *******************************/
-assert(romanToInt("III") == 3)
-assert(romanToInt("IV") == 4)
-assert(romanToInt("IX") == 9)
-assert(romanToInt("LVIII") == 58)
-assert(romanToInt("MCMXCIV") == 1994)
+//assert(romanToInt("III") == 3)
+//assert(romanToInt("IV") == 4)
+//assert(romanToInt("IX") == 9)
+//assert(romanToInt("LVIII") == 58)
+//assert(romanToInt("MCMXCIV") == 1994)
+
+/***** 21.合并两个有序链表 *******************************/
+//assert(mergeTwoLists(ListNode([1,2,4]), ListNode([1,3,4]))?.check(with: [1,1,2,3,4,4]) ?? false)
+//assert(mergeTwoLists(ListNode([]), ListNode([0]))?.check(with: [0]) ?? false)
 
 /***** 303.区域和检索-数组不可变 *******************************/
 //let numArray = NumArray([-2, 0, 3, -5, 2, -1])
@@ -84,5 +88,8 @@ assert(romanToInt("MCMXCIV") == 1994)
 /***** 1653.使字符串平衡的最少删除次数 *******************************/
 //assert(minimumDeletions("aababbab") == 2)
 //assert(minimumDeletions("bbaaaaabb") == 2)
+
+/***** 剑指Offer 3.数组中重复的数字 *******************************/
+assert(findRepeatNumber([2, 3, 1, 0, 2, 5, 3]) == 2)
 
 print("测试通过!")

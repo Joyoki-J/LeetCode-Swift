@@ -15,6 +15,8 @@
 		1FB09D2225EF241D00DBCAB5 /* a11_盛最多水的容器.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB09D2125EF241D00DBCAB5 /* a11_盛最多水的容器.swift */; };
 		1FB09D2525EF355600DBCAB5 /* a12_整数转罗马数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB09D2425EF355600DBCAB5 /* a12_整数转罗马数字.swift */; };
 		1FB09D2825EF562200DBCAB5 /* a13_罗马数字转整数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB09D2725EF562200DBCAB5 /* a13_罗马数字转整数.swift */; };
+		1FB09D2F25F0C7A200DBCAB5 /* a21_合并两个有序链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB09D2E25F0C7A200DBCAB5 /* a21_合并两个有序链表.swift */; };
+		1FB09D3325F0CFCC00DBCAB5 /* a3数组中重复的数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB09D3225F0CFCC00DBCAB5 /* a3数组中重复的数字.swift */; };
 		1FD27EC225EB66DE000AF792 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD27EC125EB66DE000AF792 /* main.swift */; };
 		1FD27ECB25EB6709000AF792 /* a896_单调数列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD27ECA25EB6709000AF792 /* a896_单调数列.swift */; };
 		1FD27ED425EB7749000AF792 /* a1_两数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD27ED325EB7749000AF792 /* a1_两数之和.swift */; };
@@ -44,6 +46,8 @@
 		1FB09D2125EF241D00DBCAB5 /* a11_盛最多水的容器.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "a11_盛最多水的容器.swift"; sourceTree = "<group>"; };
 		1FB09D2425EF355600DBCAB5 /* a12_整数转罗马数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "a12_整数转罗马数字.swift"; sourceTree = "<group>"; };
 		1FB09D2725EF562200DBCAB5 /* a13_罗马数字转整数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "a13_罗马数字转整数.swift"; sourceTree = "<group>"; };
+		1FB09D2E25F0C7A200DBCAB5 /* a21_合并两个有序链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "a21_合并两个有序链表.swift"; sourceTree = "<group>"; };
+		1FB09D3225F0CFCC00DBCAB5 /* a3数组中重复的数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "a3数组中重复的数字.swift"; sourceTree = "<group>"; };
 		1FD27EBE25EB66DE000AF792 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FD27EC125EB66DE000AF792 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		1FD27ECA25EB6709000AF792 /* a896_单调数列.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "a896_单调数列.swift"; sourceTree = "<group>"; };
@@ -82,6 +86,14 @@
 			path = 300_399;
 			sourceTree = "<group>";
 		};
+		1FB09D3125F0CFAA00DBCAB5 /* 剑指Offer */ = {
+			isa = PBXGroup;
+			children = (
+				1FB09D3225F0CFCC00DBCAB5 /* a3数组中重复的数字.swift */,
+			);
+			path = "剑指Offer";
+			sourceTree = "<group>";
+		};
 		1FD27EB525EB66DE000AF792 = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +119,7 @@
 				1F9AC92525EC87D800F8AEE1 /* 300_399 */,
 				1FD27EC925EB66F7000AF792 /* 800_899 */,
 				1F38365825EC927D00D1CFAB /* 1600_1699 */,
+				1FB09D3125F0CFAA00DBCAB5 /* 剑指Offer */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -129,6 +142,7 @@
 				1FB09D2125EF241D00DBCAB5 /* a11_盛最多水的容器.swift */,
 				1FB09D2425EF355600DBCAB5 /* a12_整数转罗马数字.swift */,
 				1FB09D2725EF562200DBCAB5 /* a13_罗马数字转整数.swift */,
+				1FB09D2E25F0C7A200DBCAB5 /* a21_合并两个有序链表.swift */,
 			);
 			path = 1_99;
 			sourceTree = "<group>";
@@ -203,9 +217,11 @@
 				1FB09D2525EF355600DBCAB5 /* a12_整数转罗马数字.swift in Sources */,
 				1FD27ECB25EB6709000AF792 /* a896_单调数列.swift in Sources */,
 				1FD27EDC25EB7BFD000AF792 /* a2_两数相加.swift in Sources */,
+				1FB09D3325F0CFCC00DBCAB5 /* a3数组中重复的数字.swift in Sources */,
 				1FD27ED425EB7749000AF792 /* a1_两数之和.swift in Sources */,
 				1FD27EC225EB66DE000AF792 /* main.swift in Sources */,
 				1F9AC92725EC87FC00F8AEE1 /* a303_区域和检索_数组不可变.swift in Sources */,
+				1FB09D2F25F0C7A200DBCAB5 /* a21_合并两个有序链表.swift in Sources */,
 				1FB09D2825EF562200DBCAB5 /* a13_罗马数字转整数.swift in Sources */,
 				1FD27ED825EB78A2000AF792 /* ListNode.swift in Sources */,
 				1FB09D2225EF241D00DBCAB5 /* a11_盛最多水的容器.swift in Sources */,
