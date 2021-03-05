@@ -56,15 +56,34 @@ import Foundation
 //print(threeSum([0]))
 
 /***** 20.有效的括号 *******************************/
-assert(isValid("()") == true)
-assert(isValid("()[]{}") == true)
-assert(isValid("(]") == false)
-assert(isValid("([)]") == false)
-assert(isValid("{[]}") == true)
+//assert(isValid("()") == true)
+//assert(isValid("()[]{}") == true)
+//assert(isValid("(]") == false)
+//assert(isValid("([)]") == false)
+//assert(isValid("{[]}") == true)
 
 /***** 21.合并两个有序链表 *******************************/
 //assert(mergeTwoLists(ListNode([1,2,4]), ListNode([1,3,4]))?.check(with: [1,1,2,3,4,4]) ?? false)
 //assert(mergeTwoLists(ListNode([]), ListNode([0]))?.check(with: [0]) ?? false)
+
+/***** 53.最大子序和 *******************************/
+//assert(maxSubArray([-2,1,-3,4,-1,2,1,-5,4]) == 6)
+//assert(maxSubArray([1]) == 1)
+//assert(maxSubArray([0]) == 0)
+//assert(maxSubArray([-1]) == -1)
+//assert(maxSubArray([-100000]) == -100000)
+
+/***** 146.LRU缓存机制 *******************************/
+let LRU = LRUCache(2)
+LRU.put(1, 1)
+LRU.put(2, 2)
+assert(LRU.get(1) == 1)
+LRU.put(3, 3)
+assert(LRU.get(2) == -1)
+LRU.put(4, 4)
+assert(LRU.get(1) == -1)
+assert(LRU.get(3) == 3)
+assert(LRU.get(4) == 4)
 
 /***** 232.用栈实现队列 *******************************/
 //let myQueue = MyQueue()
@@ -111,5 +130,8 @@ assert(isValid("{[]}") == true)
 
 /***** 剑指Offer 3.数组中重复的数字 *******************************/
 //assert(findRepeatNumber([2, 3, 1, 0, 2, 5, 3]) == 2)
+
+/***** 剑指Offer 24.反转链表 *******************************/
+//assert(reverseList(ListNode([1,2,3,4,5]))?.check(with: [5,4,3,2,1]) ?? false)
 
 print("测试通过!")
