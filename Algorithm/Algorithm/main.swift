@@ -50,9 +50,29 @@ import Foundation
 //assert(romanToInt("LVIII") == 58)
 //assert(romanToInt("MCMXCIV") == 1994)
 
+/***** 15.三数之和 *******************************/
+//print(threeSum([-1,0,1,2,-1,-4]))
+//print(threeSum([]))
+//print(threeSum([0]))
+
+/***** 20.有效的括号 *******************************/
+assert(isValid("()") == true)
+assert(isValid("()[]{}") == true)
+assert(isValid("(]") == false)
+assert(isValid("([)]") == false)
+assert(isValid("{[]}") == true)
+
 /***** 21.合并两个有序链表 *******************************/
 //assert(mergeTwoLists(ListNode([1,2,4]), ListNode([1,3,4]))?.check(with: [1,1,2,3,4,4]) ?? false)
 //assert(mergeTwoLists(ListNode([]), ListNode([0]))?.check(with: [0]) ?? false)
+
+/***** 232.用栈实现队列 *******************************/
+//let myQueue = MyQueue()
+//myQueue.push(1); // queue is: [1]
+//myQueue.push(2); // queue is: [1, 2] (leftmost is front of the queue)
+//assert(myQueue.peek() == 1)
+//assert(myQueue.pop() == 1)
+//assert(myQueue.empty() == false)
 
 /***** 303.区域和检索-数组不可变 *******************************/
 //let numArray = NumArray([-2, 0, 3, -5, 2, -1])
@@ -90,6 +110,6 @@ import Foundation
 //assert(minimumDeletions("bbaaaaabb") == 2)
 
 /***** 剑指Offer 3.数组中重复的数字 *******************************/
-assert(findRepeatNumber([2, 3, 1, 0, 2, 5, 3]) == 2)
+//assert(findRepeatNumber([2, 3, 1, 0, 2, 5, 3]) == 2)
 
 print("测试通过!")
