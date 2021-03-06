@@ -73,17 +73,22 @@ import Foundation
 //assert(maxSubArray([-1]) == -1)
 //assert(maxSubArray([-100000]) == -100000)
 
+/***** 143.重排链表 *******************************/
+//let node = ListNode([1,2,3,4,5])
+//reorderList(node)
+//print(node)
+
 /***** 146.LRU缓存机制 *******************************/
-let LRU = LRUCache(2)
-LRU.put(1, 1)
-LRU.put(2, 2)
-assert(LRU.get(1) == 1)
-LRU.put(3, 3)
-assert(LRU.get(2) == -1)
-LRU.put(4, 4)
-assert(LRU.get(1) == -1)
-assert(LRU.get(3) == 3)
-assert(LRU.get(4) == 4)
+//let LRU = LRUCache(2)
+//LRU.put(1, 1)
+//LRU.put(2, 2)
+//assert(LRU.get(1) == 1)
+//LRU.put(3, 3)
+//assert(LRU.get(2) == -1)
+//LRU.put(4, 4)
+//assert(LRU.get(1) == -1)
+//assert(LRU.get(3) == 3)
+//assert(LRU.get(4) == 4)
 
 /***** 232.用栈实现队列 *******************************/
 //let myQueue = MyQueue()
@@ -116,6 +121,10 @@ assert(LRU.get(4) == 4)
 //assert(countBits(2) == [0,1,1])
 //assert(countBits(5) == [0,1,1,2,1,2])
 //assert(countBits(7) == [0,1,1,2,1,2,2,3])
+
+/***** 406.根据身高重建队列 *******************************/
+assert(reconstructQueue([[7,0],[4,4],[7,1],[5,0],[6,1],[5,2]]) == [[5,0],[7,0],[5,2],[6,1],[4,4],[7,1]])
+assert(reconstructQueue([[6,0],[5,0],[4,0],[3,2],[2,2],[1,4]]) == [[4,0],[5,0],[2,2],[3,2],[1,4],[6,0]])
 
 /***** 896.单调数列 *******************************/
 //assert(isMonotonic([1,2,2,3]) == true)
