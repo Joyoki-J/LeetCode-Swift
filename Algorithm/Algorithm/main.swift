@@ -74,10 +74,13 @@ import Foundation
 //assert(maxSubArray([-100000]) == -100000)
 
 /***** 79.单词搜索 *******************************/
-assert(exist([["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], "ABCCED") == true)
-assert(exist([["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], "SEE") == true)
-assert(exist([["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], "ABCB") == false)
-    
+//assert(exist([["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], "ABCCED") == true)
+//assert(exist([["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], "SEE") == true)
+//assert(exist([["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], "ABCB") == false)
+
+/***** 92_反转链表II *******************************/
+assert(reverseBetween(ListNode([1,2,3,4,5]), 2, 4)?.check(with: [1,4,3,2,5]) ?? false)
+
 /***** 143.重排链表 *******************************/
 //let node = ListNode([1,2,3,4,5])
 //reorderList(node)
@@ -137,6 +140,9 @@ assert(exist([["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], "ABCB") ==
 //assert(isMonotonic([1,3,2])   == false)
 //assert(isMonotonic([1,2,4,5]) == true)
 //assert(isMonotonic([1,1,1])   == true)
+
+/***** 1047.删除字符串中的所有相邻重复项 *******************************/
+//assert(removeDuplicates("abbaca") == "ca")
 
 /***** 1653.使字符串平衡的最少删除次数 *******************************/
 //assert(minimumDeletions("aababbab") == 2)

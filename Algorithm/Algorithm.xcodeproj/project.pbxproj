@@ -26,6 +26,8 @@
 		1FB09D4F25F2582B00DBCAB5 /* a143_重排链表 .swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB09D4E25F2582B00DBCAB5 /* a143_重排链表 .swift */; };
 		1FB09D5325F37CE900DBCAB5 /* a406_根据身高重建队列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB09D5225F37CE900DBCAB5 /* a406_根据身高重建队列.swift */; };
 		1FB09D5725F4783200DBCAB5 /* a79_单词搜索.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB09D5625F4783200DBCAB5 /* a79_单词搜索.swift */; };
+		1FB09D5C25F7061D00DBCAB5 /* a1047_删除字符串中的所有相邻重复项.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB09D5B25F7061D00DBCAB5 /* a1047_删除字符串中的所有相邻重复项.swift */; };
+		1FB09D6025F7088E00DBCAB5 /* a92_反转链表II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB09D5F25F7088E00DBCAB5 /* a92_反转链表II.swift */; };
 		1FD27EC225EB66DE000AF792 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD27EC125EB66DE000AF792 /* main.swift */; };
 		1FD27ECB25EB6709000AF792 /* a896_单调数列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD27ECA25EB6709000AF792 /* a896_单调数列.swift */; };
 		1FD27ED425EB7749000AF792 /* a1_两数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD27ED325EB7749000AF792 /* a1_两数之和.swift */; };
@@ -66,6 +68,8 @@
 		1FB09D4E25F2582B00DBCAB5 /* a143_重排链表 .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "a143_重排链表 .swift"; sourceTree = "<group>"; };
 		1FB09D5225F37CE900DBCAB5 /* a406_根据身高重建队列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "a406_根据身高重建队列.swift"; sourceTree = "<group>"; };
 		1FB09D5625F4783200DBCAB5 /* a79_单词搜索.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "a79_单词搜索.swift"; sourceTree = "<group>"; };
+		1FB09D5B25F7061D00DBCAB5 /* a1047_删除字符串中的所有相邻重复项.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "a1047_删除字符串中的所有相邻重复项.swift"; sourceTree = "<group>"; };
+		1FB09D5F25F7088E00DBCAB5 /* a92_反转链表II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "a92_反转链表II.swift"; sourceTree = "<group>"; };
 		1FD27EBE25EB66DE000AF792 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FD27EC125EB66DE000AF792 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		1FD27ECA25EB6709000AF792 /* a896_单调数列.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "a896_单调数列.swift"; sourceTree = "<group>"; };
@@ -138,6 +142,14 @@
 			path = 400_499;
 			sourceTree = "<group>";
 		};
+		1FB09D5A25F7060900DBCAB5 /* 1000_1099 */ = {
+			isa = PBXGroup;
+			children = (
+				1FB09D5B25F7061D00DBCAB5 /* a1047_删除字符串中的所有相邻重复项.swift */,
+			);
+			path = 1000_1099;
+			sourceTree = "<group>";
+		};
 		1FD27EB525EB66DE000AF792 = {
 			isa = PBXGroup;
 			children = (
@@ -165,6 +177,7 @@
 				1F9AC92525EC87D800F8AEE1 /* 300_399 */,
 				1FB09D5125F37CD700DBCAB5 /* 400_499 */,
 				1FD27EC925EB66F7000AF792 /* 800_899 */,
+				1FB09D5A25F7060900DBCAB5 /* 1000_1099 */,
 				1F38365825EC927D00D1CFAB /* 1600_1699 */,
 				1FB09D3125F0CFAA00DBCAB5 /* 剑指Offer */,
 			);
@@ -194,6 +207,7 @@
 				1FB09D3F25F1DA5100DBCAB5 /* a20_有效的括号.swift */,
 				1FB09D4225F2071700DBCAB5 /* a53_最大子序和.swift */,
 				1FB09D5625F4783200DBCAB5 /* a79_单词搜索.swift */,
+				1FB09D5F25F7088E00DBCAB5 /* a92_反转链表II.swift */,
 			);
 			path = 1_99;
 			sourceTree = "<group>";
@@ -263,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FB09D6025F7088E00DBCAB5 /* a92_反转链表II.swift in Sources */,
 				1F38365D25ECAF1400D1CFAB /* a10_正则表达式匹配.swift in Sources */,
 				1FB09D5725F4783200DBCAB5 /* a79_单词搜索.swift in Sources */,
 				1FB09D1F25EF152200DBCAB5 /* a338_比特位计数.swift in Sources */,
@@ -275,6 +290,7 @@
 				1FB09D3325F0CFCC00DBCAB5 /* a3数组中重复的数字.swift in Sources */,
 				1FB09D4C25F2227100DBCAB5 /* a146_LRU 缓存机制.swift in Sources */,
 				1FB09D4025F1DA5100DBCAB5 /* a20_有效的括号.swift in Sources */,
+				1FB09D5C25F7061D00DBCAB5 /* a1047_删除字符串中的所有相邻重复项.swift in Sources */,
 				1FD27ED425EB7749000AF792 /* a1_两数之和.swift in Sources */,
 				1FB09D3725F1C65A00DBCAB5 /* a15_三数之和.swift in Sources */,
 				1FD27EC225EB66DE000AF792 /* main.swift in Sources */,
