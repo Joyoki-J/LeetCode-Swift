@@ -50,6 +50,10 @@ import Foundation
 //assert(romanToInt("LVIII") == 58)
 //assert(romanToInt("MCMXCIV") == 1994)
 
+/***** 14.最长公共前缀 *******************************/
+assert(longestCommonPrefix(["flower","flow","flight"]) == "fl")
+assert(longestCommonPrefix(["dog","racecar","car"]) == "")
+
 /***** 15.三数之和 *******************************/
 //print(threeSum([-1,0,1,2,-1,-4]))
 //print(threeSum([]))
@@ -79,7 +83,7 @@ import Foundation
 //assert(exist([["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], "ABCB") == false)
 
 /***** 92_反转链表II *******************************/
-assert(reverseBetween(ListNode([1,2,3,4,5]), 2, 4)?.check(with: [1,4,3,2,5]) ?? false)
+//assert(reverseBetween(ListNode([1,2,3,4,5]), 2, 4)?.check(with: [1,4,3,2,5]) ?? false)
 
 /***** 143.重排链表 *******************************/
 //let node = ListNode([1,2,3,4,5])
