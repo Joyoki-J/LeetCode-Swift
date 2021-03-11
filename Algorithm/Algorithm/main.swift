@@ -51,8 +51,8 @@ import Foundation
 //assert(romanToInt("MCMXCIV") == 1994)
 
 /***** 14.最长公共前缀 *******************************/
-assert(longestCommonPrefix(["flower","flow","flight"]) == "fl")
-assert(longestCommonPrefix(["dog","racecar","car"]) == "")
+//assert(longestCommonPrefix(["flower","flow","flight"]) == "fl")
+//assert(longestCommonPrefix(["dog","racecar","car"]) == "")
 
 /***** 15.三数之和 *******************************/
 //print(threeSum([-1,0,1,2,-1,-4]))
@@ -137,6 +137,10 @@ assert(longestCommonPrefix(["dog","racecar","car"]) == "")
 /***** 406.根据身高重建队列 *******************************/
 //assert(reconstructQueue([[7,0],[4,4],[7,1],[5,0],[6,1],[5,2]]) == [[5,0],[7,0],[5,2],[6,1],[4,4],[7,1]])
 //assert(reconstructQueue([[6,0],[5,0],[4,0],[3,2],[2,2],[1,4]]) == [[4,0],[5,0],[2,2],[3,2],[1,4],[6,0]])
+
+/***** 415.字符串相加 *******************************/
+assert(addStrings("123", "321") == "444")
+assert(addStrings("991", "9") == "1000")
 
 /***** 896.单调数列 *******************************/
 //assert(isMonotonic([1,2,2,3]) == true)

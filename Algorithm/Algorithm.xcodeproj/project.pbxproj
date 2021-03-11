@@ -29,6 +29,7 @@
 		1FB09D5C25F7061D00DBCAB5 /* a1047_删除字符串中的所有相邻重复项.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB09D5B25F7061D00DBCAB5 /* a1047_删除字符串中的所有相邻重复项.swift */; };
 		1FB09D6025F7088E00DBCAB5 /* a92_反转链表II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB09D5F25F7088E00DBCAB5 /* a92_反转链表II.swift */; };
 		1FB09D6325F90EA500DBCAB5 /* a14_最长公共前缀.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB09D6225F90EA500DBCAB5 /* a14_最长公共前缀.swift */; };
+		1FB09D6625F9F58C00DBCAB5 /* a415_字符串相加.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB09D6525F9F58C00DBCAB5 /* a415_字符串相加.swift */; };
 		1FD27EC225EB66DE000AF792 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD27EC125EB66DE000AF792 /* main.swift */; };
 		1FD27ECB25EB6709000AF792 /* a896_单调数列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD27ECA25EB6709000AF792 /* a896_单调数列.swift */; };
 		1FD27ED425EB7749000AF792 /* a1_两数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD27ED325EB7749000AF792 /* a1_两数之和.swift */; };
@@ -72,6 +73,7 @@
 		1FB09D5B25F7061D00DBCAB5 /* a1047_删除字符串中的所有相邻重复项.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "a1047_删除字符串中的所有相邻重复项.swift"; sourceTree = "<group>"; };
 		1FB09D5F25F7088E00DBCAB5 /* a92_反转链表II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "a92_反转链表II.swift"; sourceTree = "<group>"; };
 		1FB09D6225F90EA500DBCAB5 /* a14_最长公共前缀.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "a14_最长公共前缀.swift"; sourceTree = "<group>"; };
+		1FB09D6525F9F58C00DBCAB5 /* a415_字符串相加.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "a415_字符串相加.swift"; sourceTree = "<group>"; };
 		1FD27EBE25EB66DE000AF792 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FD27EC125EB66DE000AF792 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		1FD27ECA25EB6709000AF792 /* a896_单调数列.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "a896_单调数列.swift"; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				1FB09D5225F37CE900DBCAB5 /* a406_根据身高重建队列.swift */,
+				1FB09D6525F9F58C00DBCAB5 /* a415_字符串相加.swift */,
 			);
 			path = 400_499;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 				1FB09D6025F7088E00DBCAB5 /* a92_反转链表II.swift in Sources */,
 				1F38365D25ECAF1400D1CFAB /* a10_正则表达式匹配.swift in Sources */,
 				1FB09D5725F4783200DBCAB5 /* a79_单词搜索.swift in Sources */,
+				1FB09D6625F9F58C00DBCAB5 /* a415_字符串相加.swift in Sources */,
 				1FB09D1F25EF152200DBCAB5 /* a338_比特位计数.swift in Sources */,
 				1FB09D2525EF355600DBCAB5 /* a12_整数转罗马数字.swift in Sources */,
 				1FB09D6325F90EA500DBCAB5 /* a14_最长公共前缀.swift in Sources */,
