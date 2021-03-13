@@ -70,6 +70,20 @@ import Foundation
 //assert(mergeTwoLists(ListNode([1,2,4]), ListNode([1,3,4]))?.check(with: [1,1,2,3,4,4]) ?? false)
 //assert(mergeTwoLists(ListNode([]), ListNode([0]))?.check(with: [0]) ?? false)
 
+/***** 31.下一个排列 *******************************/
+//var nums = [1,2,3]
+//nextPermutation(&nums)
+//assert(nums == [1,3,2])
+//nums = [3,2,1]
+//nextPermutation(&nums)
+//assert(nums == [1,2,3])
+//nums = [1,1,5]
+//nextPermutation(&nums)
+//assert(nums == [1,5,1])
+//nums = [1]
+//nextPermutation(&nums)
+//assert(nums == [1])
+
 /***** 53.最大子序和 *******************************/
 //assert(maxSubArray([-2,1,-3,4,-1,2,1,-5,4]) == 6)
 //assert(maxSubArray([1]) == 1)
@@ -82,7 +96,15 @@ import Foundation
 //assert(exist([["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], "SEE") == true)
 //assert(exist([["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], "ABCB") == false)
 
-/***** 92_反转链表II *******************************/
+/***** 88.合并两个有序数组 *******************************/
+var nums1 = [1,2,3,0,0,0]
+merge(&nums1, 3, [2,5,6], 3)
+assert(nums1 == [1,2,2,3,5,6])
+nums1 = [1]
+merge(&nums1, 1, [0], 0)
+assert(nums1 == [1])
+
+/***** 92.反转链表II *******************************/
 //assert(reverseBetween(ListNode([1,2,3,4,5]), 2, 4)?.check(with: [1,4,3,2,5]) ?? false)
 
 /***** 143.重排链表 *******************************/
@@ -139,8 +161,8 @@ import Foundation
 //assert(reconstructQueue([[6,0],[5,0],[4,0],[3,2],[2,2],[1,4]]) == [[4,0],[5,0],[2,2],[3,2],[1,4],[6,0]])
 
 /***** 415.字符串相加 *******************************/
-assert(addStrings("123", "321") == "444")
-assert(addStrings("991", "9") == "1000")
+//assert(addStrings("123", "321") == "444")
+//assert(addStrings("991", "9") == "1000")
 
 /***** 896.单调数列 *******************************/
 //assert(isMonotonic([1,2,2,3]) == true)
@@ -161,5 +183,8 @@ assert(addStrings("991", "9") == "1000")
 
 /***** 剑指Offer 24.反转链表 *******************************/
 //assert(reverseList(ListNode([1,2,3,4,5]))?.check(with: [5,4,3,2,1]) ?? false)
+
+/***** 22.链表中倒数第k个节点 *******************************/
+//assert(getKthFromEnd(ListNode([1,2,3,4,5]),2)?.check(with: [4,5]) ?? false)
 
 print("测试通过!")

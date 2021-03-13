@@ -30,6 +30,10 @@
 		1FB09D6025F7088E00DBCAB5 /* a92_反转链表II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB09D5F25F7088E00DBCAB5 /* a92_反转链表II.swift */; };
 		1FB09D6325F90EA500DBCAB5 /* a14_最长公共前缀.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB09D6225F90EA500DBCAB5 /* a14_最长公共前缀.swift */; };
 		1FB09D6625F9F58C00DBCAB5 /* a415_字符串相加.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB09D6525F9F58C00DBCAB5 /* a415_字符串相加.swift */; };
+		1FB09D6925FB1F4600DBCAB5 /* a31_下一个排列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB09D6825FB1F4600DBCAB5 /* a31_下一个排列.swift */; };
+		1FB09D6C25FB32ED00DBCAB5 /* a42_连续子数组的最大和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB09D6B25FB32ED00DBCAB5 /* a42_连续子数组的最大和.swift */; };
+		1FB09D6F25FB36C000DBCAB5 /* a22_链表中倒数第k个节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB09D6E25FB36C000DBCAB5 /* a22_链表中倒数第k个节点.swift */; };
+		1FB09D7225FB39B000DBCAB5 /* a88_合并两个有序数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB09D7125FB39B000DBCAB5 /* a88_合并两个有序数组.swift */; };
 		1FD27EC225EB66DE000AF792 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD27EC125EB66DE000AF792 /* main.swift */; };
 		1FD27ECB25EB6709000AF792 /* a896_单调数列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD27ECA25EB6709000AF792 /* a896_单调数列.swift */; };
 		1FD27ED425EB7749000AF792 /* a1_两数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD27ED325EB7749000AF792 /* a1_两数之和.swift */; };
@@ -74,6 +78,10 @@
 		1FB09D5F25F7088E00DBCAB5 /* a92_反转链表II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "a92_反转链表II.swift"; sourceTree = "<group>"; };
 		1FB09D6225F90EA500DBCAB5 /* a14_最长公共前缀.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "a14_最长公共前缀.swift"; sourceTree = "<group>"; };
 		1FB09D6525F9F58C00DBCAB5 /* a415_字符串相加.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "a415_字符串相加.swift"; sourceTree = "<group>"; };
+		1FB09D6825FB1F4600DBCAB5 /* a31_下一个排列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "a31_下一个排列.swift"; sourceTree = "<group>"; };
+		1FB09D6B25FB32ED00DBCAB5 /* a42_连续子数组的最大和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "a42_连续子数组的最大和.swift"; sourceTree = "<group>"; };
+		1FB09D6E25FB36C000DBCAB5 /* a22_链表中倒数第k个节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "a22_链表中倒数第k个节点.swift"; sourceTree = "<group>"; };
+		1FB09D7125FB39B000DBCAB5 /* a88_合并两个有序数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "a88_合并两个有序数组.swift"; sourceTree = "<group>"; };
 		1FD27EBE25EB66DE000AF792 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FD27EC125EB66DE000AF792 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		1FD27ECA25EB6709000AF792 /* a896_单调数列.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "a896_单调数列.swift"; sourceTree = "<group>"; };
@@ -116,7 +124,9 @@
 			isa = PBXGroup;
 			children = (
 				1FB09D3225F0CFCC00DBCAB5 /* a3数组中重复的数字.swift */,
+				1FB09D6E25FB36C000DBCAB5 /* a22_链表中倒数第k个节点.swift */,
 				1FB09D4625F20CB400DBCAB5 /* a24_反转链表.swift */,
+				1FB09D6B25FB32ED00DBCAB5 /* a42_连续子数组的最大和.swift */,
 			);
 			path = "剑指Offer";
 			sourceTree = "<group>";
@@ -211,8 +221,10 @@
 				1FB09D3625F1C65A00DBCAB5 /* a15_三数之和.swift */,
 				1FB09D2E25F0C7A200DBCAB5 /* a21_合并两个有序链表.swift */,
 				1FB09D3F25F1DA5100DBCAB5 /* a20_有效的括号.swift */,
+				1FB09D6825FB1F4600DBCAB5 /* a31_下一个排列.swift */,
 				1FB09D4225F2071700DBCAB5 /* a53_最大子序和.swift */,
 				1FB09D5625F4783200DBCAB5 /* a79_单词搜索.swift */,
+				1FB09D7125FB39B000DBCAB5 /* a88_合并两个有序数组.swift */,
 				1FB09D5F25F7088E00DBCAB5 /* a92_反转链表II.swift */,
 			);
 			path = 1_99;
@@ -287,12 +299,14 @@
 				1F38365D25ECAF1400D1CFAB /* a10_正则表达式匹配.swift in Sources */,
 				1FB09D5725F4783200DBCAB5 /* a79_单词搜索.swift in Sources */,
 				1FB09D6625F9F58C00DBCAB5 /* a415_字符串相加.swift in Sources */,
+				1FB09D6F25FB36C000DBCAB5 /* a22_链表中倒数第k个节点.swift in Sources */,
 				1FB09D1F25EF152200DBCAB5 /* a338_比特位计数.swift in Sources */,
 				1FB09D2525EF355600DBCAB5 /* a12_整数转罗马数字.swift in Sources */,
 				1FB09D6325F90EA500DBCAB5 /* a14_最长公共前缀.swift in Sources */,
 				1FD27ECB25EB6709000AF792 /* a896_单调数列.swift in Sources */,
 				1FD27EDC25EB7BFD000AF792 /* a2_两数相加.swift in Sources */,
 				1FB09D4F25F2582B00DBCAB5 /* a143_重排链表 .swift in Sources */,
+				1FB09D6925FB1F4600DBCAB5 /* a31_下一个排列.swift in Sources */,
 				1FB09D3C25F1D4BD00DBCAB5 /* a232_用栈实现队列.swift in Sources */,
 				1FB09D5325F37CE900DBCAB5 /* a406_根据身高重建队列.swift in Sources */,
 				1FB09D3325F0CFCC00DBCAB5 /* a3数组中重复的数字.swift in Sources */,
@@ -311,6 +325,8 @@
 				1F38366025EDC51B00D1CFAB /* a304_二维区域和检索_矩阵不可变 .swift in Sources */,
 				1FD27EDF25EBC0B4000AF792 /* a3_无重复字符的最长子串.swift in Sources */,
 				1F38365A25EC92A800D1CFAB /* a1653_使字符串平衡的最少删除次数.swift in Sources */,
+				1FB09D6C25FB32ED00DBCAB5 /* a42_连续子数组的最大和.swift in Sources */,
+				1FB09D7225FB39B000DBCAB5 /* a88_合并两个有序数组.swift in Sources */,
 				1FB09D4725F20CB400DBCAB5 /* a24_反转链表.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
