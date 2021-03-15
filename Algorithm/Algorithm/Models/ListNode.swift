@@ -15,6 +15,15 @@ class ListNode {
     init(_ val: Int, _ next: ListNode?) { self.val = val; self.next = next; }
 }
 
+extension Optional where Wrapped == ListNode {
+    func check(with nums: [Int]) -> Bool {
+        if let this = self {
+            return this.check(with: nums)
+        }
+        return nums.count == 0
+    }
+}
+
 extension ListNode: CustomDebugStringConvertible {
     convenience init?(_ nums: [Int]) {
         guard nums.count > 0 else {

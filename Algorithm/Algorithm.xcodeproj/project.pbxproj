@@ -38,6 +38,8 @@
 		1FB09D7925FC923300DBCAB5 /* a200_岛屿数量 .swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB09D7825FC923300DBCAB5 /* a200_岛屿数量 .swift */; };
 		1FB09D7C25FE06D600DBCAB5 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB09D7B25FE06D600DBCAB5 /* TreeNode.swift */; };
 		1FB09D7F25FE071A00DBCAB5 /* a103_二叉树的锯齿形层序遍历.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB09D7E25FE071A00DBCAB5 /* a103_二叉树的锯齿形层序遍历.swift */; };
+		1FB09D8225FF0F4200DBCAB5 /* a19_删除链表的倒数第 N 个结点.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB09D8125FF0F4200DBCAB5 /* a19_删除链表的倒数第 N 个结点.swift */; };
+		1FB09D8725FF142B00DBCAB5 /* a912_排序数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB09D8625FF142B00DBCAB5 /* a912_排序数组.swift */; };
 		1FD27EC225EB66DE000AF792 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD27EC125EB66DE000AF792 /* main.swift */; };
 		1FD27ECB25EB6709000AF792 /* a896_单调数列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD27ECA25EB6709000AF792 /* a896_单调数列.swift */; };
 		1FD27ED425EB7749000AF792 /* a1_两数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD27ED325EB7749000AF792 /* a1_两数之和.swift */; };
@@ -90,6 +92,8 @@
 		1FB09D7825FC923300DBCAB5 /* a200_岛屿数量 .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "a200_岛屿数量 .swift"; sourceTree = "<group>"; };
 		1FB09D7B25FE06D600DBCAB5 /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
 		1FB09D7E25FE071A00DBCAB5 /* a103_二叉树的锯齿形层序遍历.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "a103_二叉树的锯齿形层序遍历.swift"; sourceTree = "<group>"; };
+		1FB09D8125FF0F4200DBCAB5 /* a19_删除链表的倒数第 N 个结点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "a19_删除链表的倒数第 N 个结点.swift"; sourceTree = "<group>"; };
+		1FB09D8625FF142B00DBCAB5 /* a912_排序数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "a912_排序数组.swift"; sourceTree = "<group>"; };
 		1FD27EBE25EB66DE000AF792 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FD27EC125EB66DE000AF792 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		1FD27ECA25EB6709000AF792 /* a896_单调数列.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "a896_单调数列.swift"; sourceTree = "<group>"; };
@@ -175,6 +179,14 @@
 			path = 1000_1099;
 			sourceTree = "<group>";
 		};
+		1FB09D8525FF141D00DBCAB5 /* 900_999 */ = {
+			isa = PBXGroup;
+			children = (
+				1FB09D8625FF142B00DBCAB5 /* a912_排序数组.swift */,
+			);
+			path = 900_999;
+			sourceTree = "<group>";
+		};
 		1FD27EB525EB66DE000AF792 = {
 			isa = PBXGroup;
 			children = (
@@ -202,6 +214,7 @@
 				1F9AC92525EC87D800F8AEE1 /* 300_399 */,
 				1FB09D5125F37CD700DBCAB5 /* 400_499 */,
 				1FD27EC925EB66F7000AF792 /* 800_899 */,
+				1FB09D8525FF141D00DBCAB5 /* 900_999 */,
 				1FB09D5A25F7060900DBCAB5 /* 1000_1099 */,
 				1F38365825EC927D00D1CFAB /* 1600_1699 */,
 				1FB09D3125F0CFAA00DBCAB5 /* 剑指Offer */,
@@ -229,6 +242,7 @@
 				1FB09D2725EF562200DBCAB5 /* a13_罗马数字转整数.swift */,
 				1FB09D6225F90EA500DBCAB5 /* a14_最长公共前缀.swift */,
 				1FB09D3625F1C65A00DBCAB5 /* a15_三数之和.swift */,
+				1FB09D8125FF0F4200DBCAB5 /* a19_删除链表的倒数第 N 个结点.swift */,
 				1FB09D2E25F0C7A200DBCAB5 /* a21_合并两个有序链表.swift */,
 				1FB09D3F25F1DA5100DBCAB5 /* a20_有效的括号.swift */,
 				1FB09D6825FB1F4600DBCAB5 /* a31_下一个排列.swift */,
@@ -317,6 +331,7 @@
 				1FB09D6325F90EA500DBCAB5 /* a14_最长公共前缀.swift in Sources */,
 				1FD27ECB25EB6709000AF792 /* a896_单调数列.swift in Sources */,
 				1FD27EDC25EB7BFD000AF792 /* a2_两数相加.swift in Sources */,
+				1FB09D8725FF142B00DBCAB5 /* a912_排序数组.swift in Sources */,
 				1FB09D4F25F2582B00DBCAB5 /* a143_重排链表 .swift in Sources */,
 				1FB09D7C25FE06D600DBCAB5 /* TreeNode.swift in Sources */,
 				1FB09D6925FB1F4600DBCAB5 /* a31_下一个排列.swift in Sources */,
@@ -332,6 +347,7 @@
 				1F9AC92725EC87FC00F8AEE1 /* a303_区域和检索_数组不可变.swift in Sources */,
 				1FB09D2F25F0C7A200DBCAB5 /* a21_合并两个有序链表.swift in Sources */,
 				1FB09D2825EF562200DBCAB5 /* a13_罗马数字转整数.swift in Sources */,
+				1FB09D8225FF0F4200DBCAB5 /* a19_删除链表的倒数第 N 个结点.swift in Sources */,
 				1FD27ED825EB78A2000AF792 /* ListNode.swift in Sources */,
 				1FB09D2225EF241D00DBCAB5 /* a11_盛最多水的容器.swift in Sources */,
 				1FB09D4325F2071700DBCAB5 /* a53_最大子序和.swift in Sources */,

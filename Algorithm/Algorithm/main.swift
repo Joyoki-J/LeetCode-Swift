@@ -13,9 +13,9 @@ import Foundation
 //assert(twoSum([3,3], 6)       == [0, 1])
 
 /***** 2.两数相加 *******************************/
-//assert(addTwoNumbers(ListNode([2,4,3]), ListNode([5,6,4]))?.check(with: [7,0,8]) ?? false)
-//assert(addTwoNumbers(ListNode([0]), ListNode([0]))?.check(with: [0]) ?? false)
-//assert(addTwoNumbers(ListNode([9,9,9,9,9,9,9]), ListNode([9,9,9,9]))?.check(with: [8,9,9,9,0,0,0,1]) ?? false)
+//assert(addTwoNumbers(ListNode([2,4,3]), ListNode([5,6,4])).check(with: [7,0,8]))
+//assert(addTwoNumbers(ListNode([0]), ListNode([0])).check(with: [0]))
+//assert(addTwoNumbers(ListNode([9,9,9,9,9,9,9]), ListNode([9,9,9,9])).check(with: [8,9,9,9,0,0,0,1]))
 
 /***** 3.无重复字符的最长子串 *******************************/
 //assert(lengthOfLongestSubstring("abcabcbb") == 3)
@@ -59,6 +59,10 @@ import Foundation
 //print(threeSum([]))
 //print(threeSum([0]))
 
+/***** 19.删除链表的倒数第N个结点 *******************************/
+//assert(removeNthFromEnd(ListNode([1,2,3,4,5]),2).check(with: [1,2,3,5]))
+//assert(removeNthFromEnd(ListNode([1]),1).check(with: []))
+
 /***** 20.有效的括号 *******************************/
 //assert(isValid("()") == true)
 //assert(isValid("()[]{}") == true)
@@ -67,8 +71,8 @@ import Foundation
 //assert(isValid("{[]}") == true)
 
 /***** 21.合并两个有序链表 *******************************/
-//assert(mergeTwoLists(ListNode([1,2,4]), ListNode([1,3,4]))?.check(with: [1,1,2,3,4,4]) ?? false)
-//assert(mergeTwoLists(ListNode([]), ListNode([0]))?.check(with: [0]) ?? false)
+//assert(mergeTwoLists(ListNode([1,2,4]), ListNode([1,3,4])).check(with: [1,1,2,3,4,4]))
+//assert(mergeTwoLists(ListNode([]), ListNode([0])).check(with: [0]))
 
 /***** 31.下一个排列 *******************************/
 //var nums = [1,2,3]
@@ -109,7 +113,7 @@ import Foundation
 //assert(nums1 == [1])
 
 /***** 92.反转链表II *******************************/
-//assert(reverseBetween(ListNode([1,2,3,4,5]), 2, 4)?.check(with: [1,4,3,2,5]) ?? false)
+//assert(reverseBetween(ListNode([1,2,3,4,5]), 2, 4).check(with: [1,4,3,2,5]))
 
 /***** 143.重排链表 *******************************/
 //let node = ListNode([1,2,3,4,5])
@@ -191,6 +195,10 @@ import Foundation
 //assert(isMonotonic([1,2,4,5]) == true)
 //assert(isMonotonic([1,1,1])   == true)
 
+/***** 912.排序数组 *******************************/
+assert(sortArray([5,2,3,1]) == [1,2,3,5])
+assert(sortArray([5,1,1,2,0,0]) == [0,0,1,1,2,5])
+
 /***** 1047.删除字符串中的所有相邻重复项 *******************************/
 //assert(removeDuplicates("abbaca") == "ca")
 
@@ -201,10 +209,10 @@ import Foundation
 /***** 剑指Offer 3.数组中重复的数字 *******************************/
 //assert(findRepeatNumber([2, 3, 1, 0, 2, 5, 3]) == 2)
 
-/***** 剑指Offer 24.反转链表 *******************************/
-//assert(reverseList(ListNode([1,2,3,4,5]))?.check(with: [5,4,3,2,1]) ?? false)
+/***** 剑指Offer 22.链表中倒数第k个节点 *******************************/
+//assert(getKthFromEnd(ListNode([1,2,3,4,5]),2).check(with: [4,5]))
 
-/***** 22.链表中倒数第k个节点 *******************************/
-//assert(getKthFromEnd(ListNode([1,2,3,4,5]),2)?.check(with: [4,5]) ?? false)
+/***** 剑指Offer 24.反转链表 *******************************/
+//assert(reverseList(ListNode([1,2,3,4,5])).check(with: [5,4,3,2,1]))
 
 print("测试通过!")
